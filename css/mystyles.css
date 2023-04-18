@@ -1,0 +1,70 @@
+body{
+    border: solid black 5px;
+}
+
+.common{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+}
+
+.header{
+    background-color: lightslategrey;
+    top: 0px;
+    height: 200px;
+    left: 5px;
+    right:5px;
+    line-height: 200px;
+}
+
+.mainbody{
+    background-color: whitesmoke;
+    left: 5px;
+    right: 5px;
+    
+}
+
+.footer{
+    background-color: lightslategrey;
+    bottom: 0px;
+    height: 30px;
+    left: 5px;
+    right: 5px;
+    line-height: 30px;
+    position: fixed;
+}
+
+
+
+ol{
+    list-style-position: inside;
+}
+
+ul{
+    list-style-position: inside;
+    font-size: 20px;
+}
+
+.tableauPlaceholder{
+    left: 15px;
+    right: 15px;
+    border: solid black 2px;
+}
+
+nav{
+    background-color: whitesmoke;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav a:hover{
+    background-color: lightgrey;
+}
+
+nav a{
+    float: left;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 20px;
+}
